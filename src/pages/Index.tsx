@@ -1,6 +1,7 @@
 import StickyHeader from "@/components/StickyHeader";
 import SectionHeader from "@/components/SectionHeader";
 import CandidateRow from "@/components/CandidateRow";
+import ProposalGallery from "@/components/ProposalGallery";
 
 import c1 from "@/assets/candidate-1.jpg";
 import c2 from "@/assets/candidate-2.jpg";
@@ -14,6 +15,15 @@ import c9 from "@/assets/candidate-9.jpg";
 import c10 from "@/assets/candidate-10.jpg";
 import c11 from "@/assets/candidate-11.jpg";
 import c12 from "@/assets/candidate-12.jpg";
+
+import propBudget from "@/assets/proposal-budget.jpg";
+import propInfra from "@/assets/proposal-infrastructure.jpg";
+import propSafety from "@/assets/proposal-safety.jpg";
+import propEducation from "@/assets/proposal-education.jpg";
+import propEnvironment from "@/assets/proposal-environment.jpg";
+import propEconomy from "@/assets/proposal-economy.jpg";
+import propRural from "@/assets/proposal-rural.jpg";
+import propCulture from "@/assets/proposal-culture.jpg";
 
 const boardRows = [
   {
