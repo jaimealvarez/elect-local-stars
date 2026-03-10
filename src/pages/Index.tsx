@@ -61,12 +61,18 @@ const assemblyRows = [
   },
 ];
 
-const proposals = [
-  { title: "Transparent Budgeting", description: "Implement an open-access digital platform for real-time tracking of all municipal expenditures, ensuring every citizen can verify how public funds are allocated." },
-  { title: "Infrastructure Modernization", description: "Prioritize the renovation of roads, water systems, and public buildings with a 5-year capital improvement plan developed through community input sessions." },
-  { title: "Education and Youth Development", description: "Expand after-school programs, vocational training partnerships, and scholarship opportunities for local students in collaboration with regional institutions." },
-  { title: "Environmental Responsibility", description: "Establish a municipal sustainability office to oversee waste reduction targets, green space preservation, and renewable energy adoption in public facilities." },
-  { title: "Community Safety", description: "Increase investment in community policing, public lighting, and emergency response infrastructure while maintaining full civilian oversight of law enforcement." },
+const boardProposals = [
+  { title: "Transparent Budgeting", description: "Implement an open-access digital platform for real-time tracking of all municipal expenditures, ensuring every citizen can verify how public funds are allocated.", image: propBudget },
+  { title: "Infrastructure Modernization", description: "Prioritize the renovation of roads, water systems, and public buildings with a 5-year capital improvement plan developed through community input sessions.", image: propInfra },
+  { title: "Community Safety", description: "Increase investment in community policing, public lighting, and emergency response infrastructure while maintaining full civilian oversight of law enforcement.", image: propSafety },
+  { title: "Environmental Responsibility", description: "Establish a municipal sustainability office to oversee waste reduction targets, green space preservation, and renewable energy adoption in public facilities.", image: propEnvironment },
+];
+
+const assemblyProposals = [
+  { title: "Education and Youth Development", description: "Expand after-school programs, vocational training partnerships, and scholarship opportunities for local students in collaboration with regional institutions.", image: propEducation },
+  { title: "Economic Development", description: "Support local entrepreneurship through micro-loan programs, business incubators, and streamlined permitting processes for small and medium enterprises.", image: propEconomy },
+  { title: "Rural Development", description: "Strengthen agricultural cooperatives, improve rural road networks, and expand water management systems to support food security across the district.", image: propRural },
+  { title: "Cultural Heritage", description: "Preserve local traditions and expand community cultural spaces through arts programs, heritage site restoration, and public festival support.", image: propCulture },
 ];
 
 export default function Index() {
