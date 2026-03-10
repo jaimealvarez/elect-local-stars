@@ -1,6 +1,7 @@
 import StickyHeader from "@/components/StickyHeader";
 import SectionHeader from "@/components/SectionHeader";
 import CandidateRow from "@/components/CandidateRow";
+import ProposalGallery from "@/components/ProposalGallery";
 
 import c1 from "@/assets/candidate-1.jpg";
 import c2 from "@/assets/candidate-2.jpg";
@@ -14,6 +15,15 @@ import c9 from "@/assets/candidate-9.jpg";
 import c10 from "@/assets/candidate-10.jpg";
 import c11 from "@/assets/candidate-11.jpg";
 import c12 from "@/assets/candidate-12.jpg";
+
+import propBudget from "@/assets/proposal-budget.jpg";
+import propInfra from "@/assets/proposal-infrastructure.jpg";
+import propSafety from "@/assets/proposal-safety.jpg";
+import propEducation from "@/assets/proposal-education.jpg";
+import propEnvironment from "@/assets/proposal-environment.jpg";
+import propEconomy from "@/assets/proposal-economy.jpg";
+import propRural from "@/assets/proposal-rural.jpg";
+import propCulture from "@/assets/proposal-culture.jpg";
 
 const boardRows = [
   {
@@ -51,12 +61,18 @@ const assemblyRows = [
   },
 ];
 
-const proposals = [
-  { title: "Transparent Budgeting", description: "Implement an open-access digital platform for real-time tracking of all municipal expenditures, ensuring every citizen can verify how public funds are allocated." },
-  { title: "Infrastructure Modernization", description: "Prioritize the renovation of roads, water systems, and public buildings with a 5-year capital improvement plan developed through community input sessions." },
-  { title: "Education and Youth Development", description: "Expand after-school programs, vocational training partnerships, and scholarship opportunities for local students in collaboration with regional institutions." },
-  { title: "Environmental Responsibility", description: "Establish a municipal sustainability office to oversee waste reduction targets, green space preservation, and renewable energy adoption in public facilities." },
-  { title: "Community Safety", description: "Increase investment in community policing, public lighting, and emergency response infrastructure while maintaining full civilian oversight of law enforcement." },
+const boardProposals = [
+  { title: "Transparent Budgeting", description: "Implement an open-access digital platform for real-time tracking of all municipal expenditures, ensuring every citizen can verify how public funds are allocated.", image: propBudget },
+  { title: "Infrastructure Modernization", description: "Prioritize the renovation of roads, water systems, and public buildings with a 5-year capital improvement plan developed through community input sessions.", image: propInfra },
+  { title: "Community Safety", description: "Increase investment in community policing, public lighting, and emergency response infrastructure while maintaining full civilian oversight of law enforcement.", image: propSafety },
+  { title: "Environmental Responsibility", description: "Establish a municipal sustainability office to oversee waste reduction targets, green space preservation, and renewable energy adoption in public facilities.", image: propEnvironment },
+];
+
+const assemblyProposals = [
+  { title: "Education and Youth Development", description: "Expand after-school programs, vocational training partnerships, and scholarship opportunities for local students in collaboration with regional institutions.", image: propEducation },
+  { title: "Economic Development", description: "Support local entrepreneurship through micro-loan programs, business incubators, and streamlined permitting processes for small and medium enterprises.", image: propEconomy },
+  { title: "Rural Development", description: "Strengthen agricultural cooperatives, improve rural road networks, and expand water management systems to support food security across the district.", image: propRural },
+  { title: "Cultural Heritage", description: "Preserve local traditions and expand community cultural spaces through arts programs, heritage site restoration, and public festival support.", image: propCulture },
 ];
 
 export default function Index() {
@@ -87,20 +103,16 @@ export default function Index() {
           </div>
         ))}
 
-        {/* Proposals */}
-        <SectionHeader title="Proposals" id="proposals" />
-        <div className="py-8 md:py-12 space-y-10">
-          {proposals.map((p, i) => (
-            <div key={i}>
-              <h3 className="font-display text-lg md:text-xl font-extrabold uppercase tracking-tight mb-2">
-                {p.title}
-              </h3>
-              <p className="body-serif text-base leading-relaxed text-muted-foreground max-w-3xl">
-                {p.description}
-              </p>
-              {i < proposals.length - 1 && <hr className="border-border mt-10" />}
-            </div>
-          ))}
+        {/* Proposals — Board of Directors */}
+        <SectionHeader title="Board of Directors Proposals" id="proposals" />
+        <div className="py-8 md:py-12">
+          <ProposalGallery proposals={boardProposals} />
+        </div>
+
+        {/* Proposals — Assembly */}
+        <SectionHeader title="Assembly Proposals" id="assembly-proposals" />
+        <div className="py-8 md:py-12">
+          <ProposalGallery proposals={assemblyProposals} />
         </div>
 
         {/* Vote Here */}
