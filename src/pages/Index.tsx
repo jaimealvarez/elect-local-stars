@@ -82,7 +82,7 @@ export default function Index() {
         <SectionHeader title="Assembly" id="assembly" />
         {assemblyRows.map((row, i) => (
           <div key={i}>
-            <CandidateRow principal={row.principal} substitute={row.substitute} />
+            <CandidateRow title={row.title} principal={row.principal} substitute={row.substitute} />
             {i < assemblyRows.length - 1 && <hr className="border-border" />}
           </div>
         ))}
