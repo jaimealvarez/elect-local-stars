@@ -103,20 +103,16 @@ export default function Index() {
           </div>
         ))}
 
-        {/* Proposals */}
-        <SectionHeader title="Proposals" id="proposals" />
-        <div className="py-8 md:py-12 space-y-10">
-          {proposals.map((p, i) => (
-            <div key={i}>
-              <h3 className="font-display text-lg md:text-xl font-extrabold uppercase tracking-tight mb-2">
-                {p.title}
-              </h3>
-              <p className="body-serif text-base leading-relaxed text-muted-foreground max-w-3xl">
-                {p.description}
-              </p>
-              {i < proposals.length - 1 && <hr className="border-border mt-10" />}
-            </div>
-          ))}
+        {/* Proposals — Board of Directors */}
+        <SectionHeader title="Board of Directors Proposals" id="proposals" />
+        <div className="py-8 md:py-12">
+          <ProposalGallery proposals={boardProposals} />
+        </div>
+
+        {/* Proposals — Assembly */}
+        <SectionHeader title="Assembly Proposals" id="assembly-proposals" />
+        <div className="py-8 md:py-12">
+          <ProposalGallery proposals={assemblyProposals} />
         </div>
 
         {/* Vote Here */}
