@@ -17,10 +17,12 @@ import c12 from "@/assets/candidate-12.jpg";
 
 const boardRows = [
   {
+    title: "Governance & Administration",
     principal: { name: "Roberto Méndez", role: "Principal" as const, bio: "20 years of experience in public administration. Former municipal planning director committed to transparent governance and fiscal responsibility.", photo: c1 },
     substitute: { name: "Lucía Contreras", role: "Substitute" as const, bio: "Community organizer and attorney specializing in municipal law. Advocate for equitable resource distribution and citizen engagement.", photo: c2 },
   },
   {
+    title: "Infrastructure & Sustainability",
     principal: { name: "Andrés Villalobos", role: "Principal" as const, bio: "Civil engineer with a decade of infrastructure development experience. Focused on sustainable urban growth and modernizing public services.", photo: c3 },
     substitute: { name: "Camila Ríos", role: "Substitute" as const, bio: "Environmental policy specialist and educator. Dedicated to integrating ecological standards into local governance and community planning.", photo: c4 },
   },
