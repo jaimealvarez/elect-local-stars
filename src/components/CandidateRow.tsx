@@ -8,6 +8,7 @@ interface Candidate {
 }
 
 interface CandidateRowProps {
+  title: string;
   principal: Candidate;
   substitute: Candidate;
 }
@@ -49,9 +50,12 @@ function CandidateEntry({ candidate }: { candidate: Candidate }) {
   );
 }
 
-export default function CandidateRow({ principal, substitute }: CandidateRowProps) {
+export default function CandidateRow({ title, principal, substitute }: CandidateRowProps) {
   return (
     <div className="py-8 md:py-12">
+      <h3 className="font-display text-sm font-bold uppercase tracking-widest text-muted-foreground mb-6">
+        {title}
+      </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
         <CandidateEntry candidate={principal} />
         <CandidateEntry candidate={substitute} />

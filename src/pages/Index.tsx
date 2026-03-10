@@ -17,10 +17,12 @@ import c12 from "@/assets/candidate-12.jpg";
 
 const boardRows = [
   {
+    title: "Governance & Administration",
     principal: { name: "Roberto Méndez", role: "Principal" as const, bio: "20 years of experience in public administration. Former municipal planning director committed to transparent governance and fiscal responsibility.", photo: c1 },
     substitute: { name: "Lucía Contreras", role: "Substitute" as const, bio: "Community organizer and attorney specializing in municipal law. Advocate for equitable resource distribution and citizen engagement.", photo: c2 },
   },
   {
+    title: "Infrastructure & Sustainability",
     principal: { name: "Andrés Villalobos", role: "Principal" as const, bio: "Civil engineer with a decade of infrastructure development experience. Focused on sustainable urban growth and modernizing public services.", photo: c3 },
     substitute: { name: "Camila Ríos", role: "Substitute" as const, bio: "Environmental policy specialist and educator. Dedicated to integrating ecological standards into local governance and community planning.", photo: c4 },
   },
@@ -28,18 +30,22 @@ const boardRows = [
 
 const assemblyRows = [
   {
+    title: "Education & Social Services",
     principal: { name: "Ernesto Salazar", role: "Principal" as const, bio: "Retired school principal with 30 years in education. Champion of accessible public education and youth development programs.", photo: c5 },
     substitute: { name: "Patricia Duarte", role: "Substitute" as const, bio: "Social worker and neighborhood council leader. Committed to healthcare access and support services for vulnerable populations.", photo: c6 },
   },
   {
+    title: "Economic Development",
     principal: { name: "Fernando Castillo", role: "Principal" as const, bio: "Small business owner and chamber of commerce member. Advocate for local economic development and entrepreneurship support.", photo: c7 },
     substitute: { name: "Diana Morales", role: "Substitute" as const, bio: "Public health researcher and community volunteer. Focused on preventive health initiatives and public safety improvements.", photo: c8 },
   },
   {
+    title: "Labor & Cultural Affairs",
     principal: { name: "Alejandro Paredes", role: "Principal" as const, bio: "Labor rights attorney and mediator. Experienced in conflict resolution and committed to fair employment practices in the district.", photo: c9 },
     substitute: { name: "Valentina Cruz", role: "Substitute" as const, bio: "Cultural program coordinator and arts educator. Passionate about preserving local heritage and expanding community cultural spaces.", photo: c10 },
   },
   {
+    title: "Rural Development & Accountability",
     principal: { name: "Héctor Ramírez", role: "Principal" as const, bio: "Agricultural cooperative leader with deep rural community ties. Focused on food security, water management, and rural infrastructure.", photo: c11 },
     substitute: { name: "Gloria Espinoza", role: "Substitute" as const, bio: "Former municipal auditor and public finance expert. Dedicated to accountability, anti-corruption measures, and transparent budgeting.", photo: c12 },
   },
@@ -67,7 +73,7 @@ export default function Index() {
         <SectionHeader title="Board of Directors" id="candidates" />
         {boardRows.map((row, i) => (
           <div key={i}>
-            <CandidateRow principal={row.principal} substitute={row.substitute} />
+            <CandidateRow title={row.title} principal={row.principal} substitute={row.substitute} />
             {i < boardRows.length - 1 && <hr className="border-border" />}
           </div>
         ))}
@@ -76,7 +82,7 @@ export default function Index() {
         <SectionHeader title="Assembly" id="assembly" />
         {assemblyRows.map((row, i) => (
           <div key={i}>
-            <CandidateRow principal={row.principal} substitute={row.substitute} />
+            <CandidateRow title={row.title} principal={row.principal} substitute={row.substitute} />
             {i < assemblyRows.length - 1 && <hr className="border-border" />}
           </div>
         ))}
