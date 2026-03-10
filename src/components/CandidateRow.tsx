@@ -8,6 +8,7 @@ interface Candidate {
 }
 
 interface CandidateRowProps {
+  title: string;
   principal: Candidate;
   substitute: Candidate;
 }
