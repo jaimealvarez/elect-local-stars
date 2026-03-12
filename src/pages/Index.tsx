@@ -40,24 +40,24 @@ const boardRows = [
 
 const assemblyRows = [
   {
-    title: "Education & Social Services",
-    principal: { name: "Ernesto Salazar", role: "Principal" as const, bio: "Retired school principal with 30 years in education. Champion of accessible public education and youth development programs.", photo: c5 },
-    substitute: { name: "Patricia Duarte", role: "Substitute" as const, bio: "Social worker and neighborhood council leader. Committed to healthcare access and support services for vulnerable populations.", photo: c6 },
+    title: "PRIMER RENGLÓN",
+    principal: { name: "JOHANNA ZAMBRANO", role: "Principal" as const, bio: "Ingeniera de sistemas (2005) y Maestría en ingeniería (2008)", photo: "/lovable-uploads/880d155a-8c61-4d7b-a580-3d13202871ae.jpg" },
+    substitute: { name: "JOSÉ LUIS SANTIAGO", role: "Substitute" as const, bio: "Ingeniero eléctrico, MBA (2018)", photo: "/lovable-uploads/cdd0127c-eccc-4ad1-b5b8-5e890089118a.jpg" },
   },
   {
-    title: "Economic Development",
-    principal: { name: "Fernando Castillo", role: "Principal" as const, bio: "Small business owner and chamber of commerce member. Advocate for local economic development and entrepreneurship support.", photo: c7 },
-    substitute: { name: "Diana Morales", role: "Substitute" as const, bio: "Public health researcher and community volunteer. Focused on preventive health initiatives and public safety improvements.", photo: c8 },
+    title: "SEGUNDO RENGLÓN",
+    principal: { name: "JUAN JOSÉ GARZÓN", role: "Principal" as const, bio: "Geociencias (2021)", photo: "/lovable-uploads/00bbd3ba-db3b-47d5-acc0-f559cc29923d.jpg" },
+    substitute: { name: "NATALIA DURÁN", role: "Substitute" as const, bio: "Ingeniería biomédica (2020)", photo: "/lovable-uploads/238449b4-0e24-41e3-84fd-b1d378bcc7af.jpg" },
   },
   {
-    title: "Labor & Cultural Affairs",
-    principal: { name: "Alejandro Paredes", role: "Principal" as const, bio: "Labor rights attorney and mediator. Experienced in conflict resolution and committed to fair employment practices in the district.", photo: c9 },
-    substitute: { name: "Valentina Cruz", role: "Substitute" as const, bio: "Cultural program coordinator and arts educator. Passionate about preserving local heritage and expanding community cultural spaces.", photo: c10 },
+    title: "TERCER RENGLÓN",
+    principal: { name: "JUAN DIEGO QUINTERO", role: "Principal" as const, bio: "Ingeniero civil (1988)\n\nMaestría en restauración de edificios\n\nEn Uniandinos ha sido: presidente de Caminandes, miembro de la Junta Directiva de Uniandinos, asambleista y miembro de varios comités, entre ellos el de infraestructura.\n\nEmpresario en el área de reconstrucción de edificios de patrimonio y en obras civiles.", photo: "/lovable-uploads/56e2453c-9369-43c3-9d93-b5f61989c58c.jpg" },
+    substitute: { name: "NORMA GARCÍA", role: "Substitute" as const, bio: "Lenguas modernas (1989)\n\nEspecialización en gerencia de\nMercados y MBA con énfasis en mercadeo de la universidad de Los Andes.\n\nEn Uniandinos: presidente del capítulo Civitas.\n\nHa trabajado toda su vida profesional en la industria de la tecnología en roles de desarrollo de canales de distribución y de mercado para compañías como IBM, HP, Xerox, Epson, Zebra y actualmente en Toshiba. Ha tenido regionales en toda Latinoamérica, manejando clientes corporativos en diferentes industrias con un alto énfasis en las industrias de mercadeo, publicidad y retail.", photo: "/lovable-uploads/def2f750-3c1d-4fd5-95c2-9f0967f37b1f.jpg" },
   },
   {
-    title: "Rural Development & Accountability",
-    principal: { name: "Héctor Ramírez", role: "Principal" as const, bio: "Agricultural cooperative leader with deep rural community ties. Focused on food security, water management, and rural infrastructure.", photo: c11 },
-    substitute: { name: "Gloria Espinoza", role: "Substitute" as const, bio: "Former municipal auditor and public finance expert. Dedicated to accountability, anti-corruption measures, and transparent budgeting.", photo: c12 },
+    title: "CUARTO RENGLÓN",
+    principal: { name: "CECILIA ROMERO", role: "Principal" as const, bio: "Ingeniera industrial (1978)", photo: "/lovable-uploads/2e6c0503-a39a-4203-bddf-b6e47cacd5b1.jpg" },
+    substitute: { name: "JAIME GUERRERO", role: "Substitute" as const, bio: "Ingeniero industrial (1977)", photo: "/lovable-uploads/ed8cb5ef-4f84-48d9-bb77-0ebe4d1e5948.jpg" },
   },
 ];
 
