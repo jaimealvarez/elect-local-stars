@@ -79,7 +79,7 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <StickyHeader
-        title="Civic Assembly"
+        title={`LISTA #1 A LA JUNTA DIRECTIVA\nLISTA #2 A LA ASAMBLEA`}
         subtitle="Local Elections 2026"
         slogan="Clarity in governance. Accountability in action."
       />
