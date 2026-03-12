@@ -80,8 +80,8 @@ export default function Index() {
     <div className="min-h-screen bg-background text-foreground">
       <StickyHeader
         title={`LISTA #1 A LA JUNTA DIRECTIVA\nLISTA #2 A LA ASAMBLEA`}
-        subtitle="Local Elections 2026"
-        slogan="Clarity in governance. Accountability in action."
+        subtitle="ELECCIONES UNIANDINOS 2026"
+        slogan="Juntos construimos el Uniandinos que queremos"
       />
 
       <main className="max-w-6xl mx-auto px-6">
