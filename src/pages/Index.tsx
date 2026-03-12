@@ -3,7 +3,7 @@ import SectionHeader from "@/components/SectionHeader";
 import CandidateRow from "@/components/CandidateRow";
 import ProposalGallery from "@/components/ProposalGallery";
 
-import c1 from "@/assets/candidate-1.jpg";
+// import c1 from "@/assets/candidate-1.jpg";
 import c2 from "@/assets/candidate-2.jpg";
 import c3 from "@/assets/candidate-3.jpg";
 import c4 from "@/assets/candidate-4.jpg";
@@ -28,7 +28,7 @@ import propCulture from "@/assets/proposal-culture.jpg";
 const boardRows = [
   {
     title: "PRIMER RENGLÓN",
-    principal: { name: "BLANCA RUIZ", role: "Principal" as const, bio: "Ingeniera eléctrica (1989) con especializaciones en automatización, finanzas y derecho de los negocios\n\nEn Uniandinos he sido: Vicepresidente de capítulos, miembro de la Junta Directiva de Uniandinos, presidente de varios capítulos y asambleista.\n\nMiembro de las juntas directivas del CIDET en Colombia y de TGOOD Holdings de Hong Kong.\n\nExperiencia en multinacionales como gerente general y regional.\n\nEstructuración de proyectos hasta 250 MUSD y responsabilidad de P&G hasta 30MUSD", photo: c1 },
+    principal: { name: "BLANCA RUIZ", role: "Principal" as const, bio: "Ingeniera eléctrica (1989) con especializaciones en automatización, finanzas y derecho de los negocios\n\nEn Uniandinos he sido: Vicepresidente de capítulos, miembro de la Junta Directiva de Uniandinos, presidente de varios capítulos y asambleista.\n\nMiembro de las juntas directivas del CIDET en Colombia y de TGOOD Holdings de Hong Kong.\n\nExperiencia en multinacionales como gerente general y regional.\n\nEstructuración de proyectos hasta 250 MUSD y responsabilidad de P&G hasta 30MUSD", photo: "/lovable-uploads/29b89cd1-c653-46d1-a0a7-afa98e8db9d3.jpg" },
     substitute: { name: "Lucía Contreras", role: "Substitute" as const, bio: "Geociencias (20xx) experto en \n\nEn Uniandinos: expresidente del capítulo Geociencias y asambleista.\n\nCientífico de datos con experiencia en resolución de problemas en tecnología.\n\nExperiencia en modelos analíticos.\n\nExperto en aprendizaje automático, incluyendo el desarrollo e implementación de modelos de aprendizaje automático, el ajuste de hiperparámetros y la evaluación de modelos, así como en teledetección, sistemas de información geográfica y análisis de datos espaciales.​", photo: c2 },
   },
   {
