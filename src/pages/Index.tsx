@@ -86,7 +86,7 @@ export default function Index() {
 
       <main className="max-w-6xl mx-auto px-6">
         {/* Candidates — Board of Directors */}
-        <SectionHeader title="Board of Directors" id="candidates" />
+        <SectionHeader title="LISTA PARA LA JUNTA DIRECTIVA" id="candidates" />
         {boardRows.map((row, i) => (
           <div key={i}>
             <CandidateRow title={row.title} principal={row.principal} substitute={row.substitute} />
