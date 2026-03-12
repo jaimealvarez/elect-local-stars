@@ -29,42 +29,42 @@ const boardRows = [
   {
     title: "PRIMER RENGLÓN",
     principal: { name: "BLANCA RUIZ", role: "Principal" as const, bio: "Ingeniera eléctrica (1989) con especializaciones en automatización, finanzas y derecho de los negocios\n\nEn Uniandinos he sido: Vicepresidente de capítulos, miembro de la Junta Directiva de Uniandinos, presidente de varios capítulos y asambleista.\n\nMiembro de las juntas directivas del CIDET en Colombia y de TGOOD Holdings de Hong Kong.\n\nExperiencia en multinacionales como gerente general y regional.\n\nEstructuración de proyectos hasta 250 MUSD y responsabilidad de P&G hasta 30MUSD", photo: "/lovable-uploads/29b89cd1-c653-46d1-a0a7-afa98e8db9d3.jpg" },
-    substitute: { name: "Lucía Contreras", role: "Substitute" as const, bio: "Geociencias (20xx) experto en \n\nEn Uniandinos: expresidente del capítulo Geociencias y asambleista.\n\nCientífico de datos con experiencia en resolución de problemas en tecnología.\n\nExperiencia en modelos analíticos.\n\nExperto en aprendizaje automático, incluyendo el desarrollo e implementación de modelos de aprendizaje automático, el ajuste de hiperparámetros y la evaluación de modelos, así como en teledetección, sistemas de información geográfica y análisis de datos espaciales.​", photo: c2 },
+    substitute: { name: "LUCÍA CONTRERAS", role: "Substitute" as const, bio: "Geociencias (20xx) experto en \n\nEn Uniandinos: expresidente del capítulo Geociencias y asambleista.\n\nCientífico de datos con experiencia en resolución de problemas en tecnología.\n\nExperiencia en modelos analíticos.\n\nExperto en aprendizaje automático, incluyendo el desarrollo e implementación de modelos de aprendizaje automático, el ajuste de hiperparámetros y la evaluación de modelos, así como en teledetección, sistemas de información geográfica y análisis de datos espaciales.​", photo: "/lovable-uploads/d78d7aed-e2fb-4018-a19e-b18857406814.jpg" },
   },
   {
-    title: "Infrastructure & Sustainability",
-    principal: { name: "Andrés Villalobos", role: "Principal" as const, bio: "Civil engineer with a decade of infrastructure development experience. Focused on sustainable urban growth and modernizing public services.", photo: c3 },
-    substitute: { name: "Camila Ríos", role: "Substitute" as const, bio: "Environmental policy specialist and educator. Dedicated to integrating ecological standards into local governance and community planning.", photo: c4 },
+    title: "SEGUNDO RENGLÓN",
+    principal: { name: "LUZ ELENA THOMPSON", role: "Principal" as const, bio: "Ingeniera de sistemas (1998)\n\nEn Uniandinos: ex-vicepresidente de Caminandes y miembro de Chosen Futures, comprometida con la construcción de comunidad.\n\nArquitecta de Datos en Analítica, con cerca de 30 años de experiencia en iniciativas corporativas y regionales.\n\nEmpresaria y socia desde hace 15 años, con experiencia en gobierno y gestión de equipos.\n\nExperta en articulación entre negocio y tecnología, con pensamiento estructurado y visión estratégica.", photo: "/lovable-uploads/e6e2f408-6ead-4834-a2e3-99afc5f76e58.jpg" },
+    substitute: { name: "MERCEDES GUARÍN", role: "Substitute" as const, bio: "En Uniandinos: Expresidente de Caminandes.\n\nPsicóloga con experiencia en psicología clínica\n\nEmprendedora en producción y comercialización de prendas de vestir.", photo: c4 },
   },
 ];
 
 const assemblyRows = [
   {
-    title: "Education & Social Services",
-    principal: { name: "Ernesto Salazar", role: "Principal" as const, bio: "Retired school principal with 30 years in education. Champion of accessible public education and youth development programs.", photo: c5 },
-    substitute: { name: "Patricia Duarte", role: "Substitute" as const, bio: "Social worker and neighborhood council leader. Committed to healthcare access and support services for vulnerable populations.", photo: c6 },
+    title: "PRIMER RENGLÓN",
+    principal: { name: "JOHANNA ZAMBRANO", role: "Principal" as const, bio: "Ingeniera de sistemas (2005) y Maestría en ingeniería (2008)", photo: "/lovable-uploads/880d155a-8c61-4d7b-a580-3d13202871ae.jpg" },
+    substitute: { name: "JOSÉ LUIS SANTIAGO", role: "Substitute" as const, bio: "Ingeniero eléctrico, MBA (2018)", photo: "/lovable-uploads/cdd0127c-eccc-4ad1-b5b8-5e890089118a.jpg" },
   },
   {
-    title: "Economic Development",
-    principal: { name: "Fernando Castillo", role: "Principal" as const, bio: "Small business owner and chamber of commerce member. Advocate for local economic development and entrepreneurship support.", photo: c7 },
-    substitute: { name: "Diana Morales", role: "Substitute" as const, bio: "Public health researcher and community volunteer. Focused on preventive health initiatives and public safety improvements.", photo: c8 },
+    title: "SEGUNDO RENGLÓN",
+    principal: { name: "JUAN JOSÉ GARZÓN", role: "Principal" as const, bio: "Geociencias (2021)", photo: "/lovable-uploads/00bbd3ba-db3b-47d5-acc0-f559cc29923d.jpg" },
+    substitute: { name: "NATALIA DURÁN", role: "Substitute" as const, bio: "Ingeniería biomédica (2020)", photo: "/lovable-uploads/238449b4-0e24-41e3-84fd-b1d378bcc7af.jpg" },
   },
   {
-    title: "Labor & Cultural Affairs",
-    principal: { name: "Alejandro Paredes", role: "Principal" as const, bio: "Labor rights attorney and mediator. Experienced in conflict resolution and committed to fair employment practices in the district.", photo: c9 },
-    substitute: { name: "Valentina Cruz", role: "Substitute" as const, bio: "Cultural program coordinator and arts educator. Passionate about preserving local heritage and expanding community cultural spaces.", photo: c10 },
+    title: "TERCER RENGLÓN",
+    principal: { name: "JUAN DIEGO QUINTERO", role: "Principal" as const, bio: "Ingeniero civil (1988)\n\nMaestría en restauración de edificios\n\nEn Uniandinos ha sido: presidente de Caminandes, miembro de la Junta Directiva de Uniandinos, asambleista y miembro de varios comités, entre ellos el de infraestructura.\n\nEmpresario en el área de reconstrucción de edificios de patrimonio y en obras civiles.", photo: "/lovable-uploads/56e2453c-9369-43c3-9d93-b5f61989c58c.jpg" },
+    substitute: { name: "NORMA GARCÍA", role: "Substitute" as const, bio: "Lenguas modernas (1989)\n\nEspecialización en gerencia de\nMercados y MBA con énfasis en mercadeo de la universidad de Los Andes.\n\nEn Uniandinos: presidente del capítulo Civitas.\n\nHa trabajado toda su vida profesional en la industria de la tecnología en roles de desarrollo de canales de distribución y de mercado para compañías como IBM, HP, Xerox, Epson, Zebra y actualmente en Toshiba. Ha tenido regionales en toda Latinoamérica, manejando clientes corporativos en diferentes industrias con un alto énfasis en las industrias de mercadeo, publicidad y retail.", photo: "/lovable-uploads/def2f750-3c1d-4fd5-95c2-9f0967f37b1f.jpg" },
   },
   {
-    title: "Rural Development & Accountability",
-    principal: { name: "Héctor Ramírez", role: "Principal" as const, bio: "Agricultural cooperative leader with deep rural community ties. Focused on food security, water management, and rural infrastructure.", photo: c11 },
-    substitute: { name: "Gloria Espinoza", role: "Substitute" as const, bio: "Former municipal auditor and public finance expert. Dedicated to accountability, anti-corruption measures, and transparent budgeting.", photo: c12 },
+    title: "CUARTO RENGLÓN",
+    principal: { name: "CECILIA ROMERO", role: "Principal" as const, bio: "Ingeniera industrial (1978)", photo: "/lovable-uploads/2e6c0503-a39a-4203-bddf-b6e47cacd5b1.jpg" },
+    substitute: { name: "JAIME GUERRERO", role: "Substitute" as const, bio: "Ingeniero industrial (1977)", photo: "/lovable-uploads/ed8cb5ef-4f84-48d9-bb77-0ebe4d1e5948.jpg" },
   },
 ];
 
 const boardProposals = [
-  { title: "Transparent Budgeting", description: "Implement an open-access digital platform for real-time tracking of all municipal expenditures, ensuring every citizen can verify how public funds are allocated.", image: propBudget },
-  { title: "Infrastructure Modernization", description: "Prioritize the renovation of roads, water systems, and public buildings with a 5-year capital improvement plan developed through community input sessions.", image: propInfra },
-  { title: "Community Safety", description: "Increase investment in community policing, public lighting, and emergency response infrastructure while maintaining full civilian oversight of law enforcement.", image: propSafety },
+  { title: "SOSTENIBILIDAD Y CRECIMIENTO", description: "Contratar un estructurador para el plan parcial, con términos de referencia que blinden cualquier riesgo de ejecución y garanticen la sede que necesitamos.\n\nFormular adecuadamente todos los demás proyectos de inversión y aumentar la capacidad de gestión de proyectos en la asociación.\n\nFortalecimiento de los comités de junta directiva y procesos que permitan aprovechar el conocimiento y experiencia de los asociados. En particular: reactivar el Comité de tecnología y el Consejo de Equidad y Diversidad \n\nMejorar la oferta de valor para afiliados y familias: convenios, empleabilidad, networking.\n\nEliminar la interinidad en cargos clave de la Asociación: Gerencia General y en otras áreas de Uniandinos.", image: propBudget },
+  { title: "FORTALECIMIENTO DE LA COMUNIDAD", description: "Aumentar la relevancia de Uniandinos en el sector empresarial para apoyar emprendedores y profesionales.\n\nEmpoderar los capítulos profesionales, de afinidad y grupos de interés, como motores de la comunidad y catalizadores de la continuidad de los lazos con la Universidad.\n\nFortalecer los programas de empleabilidad, emprendimiento y financiación de estudios.\n\nMantener y ampliar los programas de filantropía.\n\nAcercar a todos los egresados para conocer sus necesidades e invitarlos a afiliarse.\n\nAcercar a los miembros del consejo estudiantil a los capítulos e integrarlos a nuestra comunidad.\n\nMejorar la experiencia tecnológica para los asociados.", image: propInfra },
+  { title: "PARTICIPACIÓN DE LA COMUNIDAD", description: "Liderar la revisión del direccionamiento estratégico y presentar sus resultados a la Asamblea, en un proceso que debe realizarse cada cinco años.\n\nFortalecer la alianza con la Universidad de los Andes, promoviendo una integración funcional, bidireccional y autónoma entre ambas instituciones.\n\nCrear redes de participación que integren a asociados, estudiantes y profesores de la Universidad, fomentando el intercambio de conocimiento y la construcción de comunidad.\n\nPromover la realización de encuentros con estudiantes, incluyendo la creación de un capítulo estudiantil que los vincule a la comunidad, con el fin de comprender sus necesidades y desarrollar iniciativas que les generen valor.\n\nReactivar el consejo de jóvenes, orientándolo al diseño de propuestas de valor y espacios de participación para este grupo etario.", image: propSafety },
   { title: "Environmental Responsibility", description: "Establish a municipal sustainability office to oversee waste reduction targets, green space preservation, and renewable energy adoption in public facilities.", image: propEnvironment },
 ];
 
@@ -95,7 +95,7 @@ export default function Index() {
         ))}
 
         {/* Candidates — Assembly */}
-        <SectionHeader title="Assembly" id="assembly" />
+        <SectionHeader title="LISTA PARA LA ASAMBLEA" id="assembly" />
         {assemblyRows.map((row, i) => (
           <div key={i}>
             <CandidateRow title={row.title} principal={row.principal} substitute={row.substitute} />
@@ -104,7 +104,7 @@ export default function Index() {
         ))}
 
         {/* Proposals — Board of Directors */}
-        <SectionHeader title="Board of Directors Proposals" id="proposals" />
+        <SectionHeader title="PROPUESTAS PARA LA JUNTA DIRECTIVA" id="proposals" />
         <div className="py-8 md:py-12">
           <ProposalGallery proposals={boardProposals} />
         </div>
