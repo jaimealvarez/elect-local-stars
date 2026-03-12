@@ -3,7 +3,7 @@ import SectionHeader from "@/components/SectionHeader";
 import CandidateRow from "@/components/CandidateRow";
 import ProposalGallery from "@/components/ProposalGallery";
 
-import c1 from "@/assets/candidate-1.jpg";
+// import c1 from "@/assets/candidate-1.jpg";
 import c2 from "@/assets/candidate-2.jpg";
 import c3 from "@/assets/candidate-3.jpg";
 import c4 from "@/assets/candidate-4.jpg";
