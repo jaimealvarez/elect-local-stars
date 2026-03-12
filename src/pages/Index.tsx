@@ -69,9 +69,9 @@ const boardProposals = [
 
 
 const assemblyProposals = [
-{ title: "Education and Youth Development", description: "Expand after-school programs, vocational training partnerships, and scholarship opportunities for local students in collaboration with regional institutions.", image: propEducation },
-{ title: "Economic Development", description: "Support local entrepreneurship through micro-loan programs, business incubators, and streamlined permitting processes for small and medium enterprises.", image: propEconomy },
-{ title: "Rural Development", description: "Strengthen agricultural cooperatives, improve rural road networks, and expand water management systems to support food security across the district.", image: propRural },
+{ title: "SOSTENIBILIDAD Y CRECIMIENTO", description: "Vigilar el manejo adecuado de riesgos en las inversiones.\n\nSeguimiento y auditoría a la interacción efectiva de los comités con el equipo de Uniandinos.\n\nConocer los intereses y necesidades de distintas generaciones de afiliados.\n\nEvaluar y aprobar decisiones estratégicas con perspectiva de comunidad.", image: propEducation },
+{ title: "FORTALECIMIENTO DE LA COMUNIDAD", description: "Promover mayor integración en la comunidad (Sede principal, regionales y nodos).\n\nFortalecer la cultura Uniandina: ética, transparencia y valores compartidos.\n\nFacilitar la comunicación entre emprendedores, empresarios, egresados y estudiantes.", image: propEconomy },
+{ title: "PARTICIPACIÓN DE LA COMUNIDAD", description: "Revisar el direccionamiento estratégico: metas, estrategias e intereses de la comunidad.\n\nCrear canales de participación con énfasis especial en escuchar a los jóvenes y facilitar beneficios especiales para estudiantes.\n\nConstruir un camino para mayor participación de los capítulos en todas las instancias.", image: propRural },
 { title: "Cultural Heritage", description: "Preserve local traditions and expand community cultural spaces through arts programs, heritage site restoration, and public festival support.", image: propCulture }];
 
 
@@ -110,13 +110,13 @@ export default function Index() {
         </div>
 
         {/* Proposals — Assembly */}
-        <SectionHeader title="Assembly Proposals" id="assembly-proposals" />
+        <SectionHeader title="PROPUESTAS PARA LA ASAMBLEA" id="assembly-proposals" />
         <div className="py-8 md:py-12">
           <ProposalGallery proposals={assemblyProposals} />
         </div>
 
         {/* Vote Here */}
-        <SectionHeader title="Vote Here" id="vote" />
+        <SectionHeader title="VOTE AQUÍ" id="vote" />
         <div className="py-12 md:py-20">
           <p className="body-serif text-lg md:text-xl leading-relaxed text-muted-foreground max-w-2xl mb-8">Unidos, garantizaremos que la gestión refleje la voluntad de la comunidad
 
@@ -130,7 +130,7 @@ export default function Index() {
         </div>
 
         {/* Contact Us */}
-        <SectionHeader title="Contact Us" id="contact" />
+        <SectionHeader title="CONTÁCTENOS" id="contact" />
         <div className="py-12 md:py-20 pb-24">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-3xl">
             <div>
