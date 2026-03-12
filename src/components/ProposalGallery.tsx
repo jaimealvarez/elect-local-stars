@@ -24,7 +24,7 @@ export default function ProposalGallery({ proposals }: ProposalGalleryProps) {
           <h3 className="font-display text-base md:text-lg font-extrabold uppercase tracking-tight mb-2">
             {p.title}
           </h3>
-          <p className="body-serif text-sm leading-relaxed text-muted-foreground">
+          <p className="body-serif text-sm leading-relaxed text-muted-foreground whitespace-pre-wrap">
             {p.description}
           </p>
         </div>
