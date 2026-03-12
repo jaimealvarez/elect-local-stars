@@ -5,10 +5,10 @@ interface StickyHeaderProps {
 }
 
 const navLinks = [
-  { label: "Candidates", href: "#candidates" },
-  { label: "Proposals", href: "#proposals" },
-  { label: "Vote", href: "#vote" },
-  { label: "Contact", href: "#contact" },
+  { label: "CANDIDATOS", href: "#candidates" },
+  { label: "PROPUESTAS", href: "#proposals" },
+  { label: "VOTE AQUÍ", href: "#vote" },
+  { label: "CONTÁCTENOS", href: "#contact" },
 ];
 
 function scrollTo(e: React.MouseEvent<HTMLAnchorElement>, href: string) {

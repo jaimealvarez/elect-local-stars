@@ -27,9 +27,9 @@ import propCulture from "@/assets/proposal-culture.jpg";
 
 const boardRows = [
   {
-    title: "Governance & Administration",
-    principal: { name: "Roberto Méndez", role: "Principal" as const, bio: "20 years of experience in public administration. Former municipal planning director committed to transparent governance and fiscal responsibility.", photo: c1 },
-    substitute: { name: "Lucía Contreras", role: "Substitute" as const, bio: "Community organizer and attorney specializing in municipal law. Advocate for equitable resource distribution and citizen engagement.", photo: c2 },
+    title: "PRIMER RENGLÓN",
+    principal: { name: "BLANCA RUIZ", role: "Principal" as const, bio: "Ingeniera eléctrica (1989) con especializaciones en automatización, finanzas y derecho de los negocios\n\nEn Uniandinos he sido: Vicepresidente de capítulos, miembro de la Junta Directiva de Uniandinos, presidente de varios capítulos y asambleista.\n\nMiembro de las juntas directivas del CIDET en Colombia y de TGOOD Holdings de Hong Kong.\n\nExperiencia en multinacionales como gerente general y regional.\n\nEstructuración de proyectos hasta 250 MUSD y responsabilidad de P&G hasta 30MUSD", photo: c1 },
+    substitute: { name: "Lucía Contreras", role: "Substitute" as const, bio: "Geociencias (20xx) experto en \n\nEn Uniandinos: expresidente del capítulo Geociencias y asambleista.\n\nCientífico de datos con experiencia en resolución de problemas en tecnología.\n\nExperiencia en modelos analíticos.\n\nExperto en aprendizaje automático, incluyendo el desarrollo e implementación de modelos de aprendizaje automático, el ajuste de hiperparámetros y la evaluación de modelos, así como en teledetección, sistemas de información geográfica y análisis de datos espaciales.​", photo: c2 },
   },
   {
     title: "Infrastructure & Sustainability",
@@ -80,13 +80,13 @@ export default function Index() {
     <div className="min-h-screen bg-background text-foreground">
       <StickyHeader
         title={`LISTA #1 A LA JUNTA DIRECTIVA\nLISTA #2 A LA ASAMBLEA`}
-        subtitle="Local Elections 2026"
-        slogan="Clarity in governance. Accountability in action."
+        subtitle="ELECCIONES UNIANDINOS 2026"
+        slogan="Juntos construimos el Uniandinos que queremos"
       />
 
       <main className="max-w-6xl mx-auto px-6">
         {/* Candidates — Board of Directors */}
-        <SectionHeader title="Board of Directors" id="candidates" />
+        <SectionHeader title="LISTA PARA LA JUNTA DIRECTIVA" id="candidates" />
         {boardRows.map((row, i) => (
           <div key={i}>
             <CandidateRow title={row.title} principal={row.principal} substitute={row.substitute} />
