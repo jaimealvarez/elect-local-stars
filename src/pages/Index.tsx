@@ -130,7 +130,7 @@ export default function Index() {
         </div>
 
         {/* Contact Us */}
-        <SectionHeader title="Contact Us" id="contact" />
+        <SectionHeader title="CONTÁCTENOS" id="contact" />
         <div className="py-12 md:py-20 pb-24">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-3xl">
             <div>
