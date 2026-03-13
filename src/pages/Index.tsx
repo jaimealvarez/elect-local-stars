@@ -104,7 +104,7 @@ export default function Index() {
         )}
 
         {/* Proposals — Board of Directors */}
-        <SectionHeader title="Board of Directors Proposals" id="proposals" />
+        <SectionHeader title="PROPUESTAS PARA LA JUNTA DIRECTIVA" id="proposals" />
         <div className="py-8 md:py-12">
           <ProposalGallery proposals={boardProposals} />
         </div>
