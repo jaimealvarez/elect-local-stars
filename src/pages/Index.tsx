@@ -146,6 +146,7 @@ export default function Index() {
 
               </h3>
               <p className="body-serif text-base text-muted-foreground leading-relaxed">johanna@neiatec.com
+
                 <br />
                 Suite 400<br />
                 District Center, 10001
@@ -181,5 +182,4 @@ export default function Index() {
         </div>
       </footer>
     </div>);
-
 }
