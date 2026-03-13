@@ -165,8 +165,6 @@ export default function Index() {
 
               </h3>
               <p className="body-serif text-base text-muted-foreground leading-relaxed">3005626257
-                <br />
-                9:00 AM — 5:00 PM
               </p>
             </div>
           </div>
