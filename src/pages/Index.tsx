@@ -116,7 +116,7 @@ export default function Index() {
         </div>
 
         {/* Vote Here */}
-        <SectionHeader title="Vote Here" id="vote" />
+        <SectionHeader title="VOTE AQUÍ" id="vote" />
         <div className="py-12 md:py-20">
           <p className="body-serif text-lg md:text-xl leading-relaxed text-muted-foreground max-w-2xl mb-8">Unidos, garantizaremos que la gestión refleje la voluntad de la comunidad
 
