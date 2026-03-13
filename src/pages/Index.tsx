@@ -110,7 +110,7 @@ export default function Index() {
         </div>
 
         {/* Proposals — Assembly */}
-        <SectionHeader title="Assembly Proposals" id="assembly-proposals" />
+        <SectionHeader title="PROPUESTAS PARA LA ASAMBLEA" id="assembly-proposals" />
         <div className="py-8 md:py-12">
           <ProposalGallery proposals={assemblyProposals} />
         </div>
