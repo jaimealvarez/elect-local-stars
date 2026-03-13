@@ -95,7 +95,7 @@ export default function Index() {
         )}
 
         {/* Candidates — Assembly */}
-        <SectionHeader title="Assembly" id="assembly" />
+        <SectionHeader title="LISTA PARA LA ASAMBLEA" id="assembly" />
         {assemblyRows.map((row, i) =>
         <div key={i}>
             <CandidateRow title={row.title} principal={row.principal} substitute={row.substitute} />
