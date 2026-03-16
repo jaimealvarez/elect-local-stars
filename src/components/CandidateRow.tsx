@@ -2,7 +2,7 @@ import { useState } from "react";
 
 interface Candidate {
   name: string;
-  role: "Principal" | "Substitute";
+  role: "Principal" | "Suplente";
   bio: string;
   photo: string;
 }
