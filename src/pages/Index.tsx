@@ -26,7 +26,7 @@ const assemblyRows = [
 {
   title: "SEGUNDO RENGLÓN",
   principal: { name: "JUAN JOSÉ GARZÓN", role: "Principal" as const, bio: "Geociencias (2021)", photo: "/lovable-uploads/6d45ddc7-e1c0-4829-91e5-a1f1a71ffe58.jpg" },
-  substitute: { name: "NATALIA DURÁN", role: "Substitute" as const, bio: "Ingeniería biomédica (2020)", photo: "/lovable-uploads/dc6cc85f-e7b8-4e05-ade8-e348dbe6b6d0.jpg" }
+  substitute: { name: "NATALIA DURÁN", role: "Suplente" as const, bio: "Ingeniería biomédica (2020)", photo: "/lovable-uploads/dc6cc85f-e7b8-4e05-ade8-e348dbe6b6d0.jpg" }
 },
 {
   title: "TERCER RENGLÓN",
