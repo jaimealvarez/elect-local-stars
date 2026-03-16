@@ -47,9 +47,9 @@ const boardProposals = [
 
 
 const assemblyProposals = [
-{ title: "SOSTENIBILIDAD Y CRECIMIENTO", description: "Vigilar el manejo adecuado de riesgos en las inversiones.\n\nSeguimiento y auditoría a la interacción efectiva de los comités con el equipo de Uniandinos.\n\nConocer los intereses y necesidades de distintas generaciones de afiliados.\n\nEvaluar y aprobar decisiones estratégicas con perspectiva de comunidad.", image: propEducation },
-{ title: "FORTALECIMIENTO DE LA COMUNIDAD", description: "Promover mayor integración en la comunidad (Sede principal, regionales y nodos).\n\nFortalecer la cultura Uniandina: ética, transparencia y valores compartidos.\n\nFacilitar la comunicación entre emprendedores, empresarios, egresados y estudiantes.", image: propEconomy },
-{ title: "PARTICIPACIÓN DE LA COMUNIDAD", description: "Revisar el direccionamiento estratégico: metas, estrategias e intereses de la comunidad.\n\nCrear canales de participación con énfasis especial en escuchar a los jóvenes y facilitar beneficios especiales para estudiantes.\n\nConstruir un camino para mayor participación de los capítulos en todas las instancias.", image: propRural }];
+{ title: "SOSTENIBILIDAD Y CRECIMIENTO", description: "Vigilar el manejo adecuado de riesgos en las inversiones.\n\nSeguimiento y auditoría a la interacción efectiva de los comités con el equipo de Uniandinos.\n\nConocer los intereses y necesidades de distintas generaciones de afiliados.\n\nEvaluar y aprobar decisiones estratégicas con perspectiva de comunidad.", image: "/lovable-uploads/57e307f9-e7ed-4b13-862b-3e4992ec5e02.jpg" },
+{ title: "FORTALECIMIENTO DE LA COMUNIDAD", description: "Promover mayor integración en la comunidad (Sede principal, regionales y nodos).\n\nFortalecer la cultura Uniandina: ética, transparencia y valores compartidos.\n\nFacilitar la comunicación entre emprendedores, empresarios, egresados y estudiantes.", image: "/lovable-uploads/18d5e574-3916-45ef-9f7f-031c35bb1e96.jpg" },
+{ title: "PARTICIPACIÓN DE LA COMUNIDAD", description: "Revisar el direccionamiento estratégico: metas, estrategias e intereses de la comunidad.\n\nCrear canales de participación con énfasis especial en escuchar a los jóvenes y facilitar beneficios especiales para estudiantes.\n\nConstruir un camino para mayor participación de los capítulos en todas las instancias.", image: "/lovable-uploads/82973fb0-10b4-41a1-a436-ad2d7df3d470.jpg" }];
 
 
 export default function Index() {
