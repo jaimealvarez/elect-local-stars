@@ -36,7 +36,7 @@ const assemblyRows = [
 {
   title: "CUARTO RENGLÓN",
   principal: { name: "CECILIA ROMERO", role: "Principal" as const, bio: "Ingeniera industrial (1978)", photo: "/lovable-uploads/78134b8b-4201-46e8-a367-f82a5495d4fa.jpg" },
-  substitute: { name: "JAIME GUERRERO", role: "Substitute" as const, bio: "Ingeniero industrial (1977)", photo: "/lovable-uploads/ccb704e6-a472-4d0b-9865-5240335d047f.jpg" }
+  substitute: { name: "JAIME GUERRERO", role: "Suplente" as const, bio: "Ingeniero industrial (1977)", photo: "/lovable-uploads/ccb704e6-a472-4d0b-9865-5240335d047f.jpg" }
 }];
 
 
