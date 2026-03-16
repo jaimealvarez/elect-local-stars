@@ -21,7 +21,7 @@ const assemblyRows = [
 {
   title: "PRIMER RENGLÓN",
   principal: { name: "JOHANNA ZAMBRANO", role: "Principal" as const, bio: "Ingeniera de sistemas (2005) y Maestría en ingeniería (2008)", photo: "/lovable-uploads/9e5584d7-21a4-4180-bea2-e6505e869aa5.jpg" },
-  substitute: { name: "JOSÉ LUIS SANTIAGO", role: "Substitute" as const, bio: "Ingeniero eléctrico, MBA (2018)", photo: "/lovable-uploads/ad1e0870-e4e2-4e30-9bc5-bf5a00b4da91.jpg" }
+  substitute: { name: "JOSÉ LUIS SANTIAGO", role: "Suplente" as const, bio: "Ingeniero eléctrico, MBA (2018)", photo: "/lovable-uploads/ad1e0870-e4e2-4e30-9bc5-bf5a00b4da91.jpg" }
 },
 {
   title: "SEGUNDO RENGLÓN",
