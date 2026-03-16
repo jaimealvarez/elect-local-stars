@@ -3,12 +3,6 @@ import SectionHeader from "@/components/SectionHeader";
 import CandidateRow from "@/components/CandidateRow";
 import ProposalGallery from "@/components/ProposalGallery";
 
-import propBudget from "@/assets/proposal-budget.jpg";
-import propInfra from "@/assets/proposal-infrastructure.jpg";
-import propSafety from "@/assets/proposal-safety.jpg";
-import propEducation from "@/assets/proposal-education.jpg";
-import propEconomy from "@/assets/proposal-economy.jpg";
-import propRural from "@/assets/proposal-rural.jpg";
 
 const boardRows = [
 {
