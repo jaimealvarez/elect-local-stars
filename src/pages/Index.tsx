@@ -13,7 +13,7 @@ const boardRows = [
 {
   title: "SEGUNDO RENGLÓN",
   principal: { name: "LUZ ELENA THOMPSON", role: "Principal" as const, bio: "Ingeniera de sistemas (1998)\n\nEn Uniandinos: ex-vicepresidente de Caminandes y miembro de Chosen Futures, comprometida con la construcción de comunidad.\n\nArquitecta de Datos en Analítica, con cerca de 30 años de experiencia en iniciativas corporativas y regionales.\n\nEmpresaria y socia desde hace 15 años, con experiencia en gobierno y gestión de equipos.\n\nExperta en articulación entre negocio y tecnología, con pensamiento estructurado y visión estratégica.", photo: "/lovable-uploads/437f68b4-5cf0-4567-9339-8552c3152dcb.jpg" },
-  substitute: { name: "MERCEDES GUARÍN", role: "Suplente" as const, bio: "En Uniandinos: Expresidente de Caminandes.\n\nPsicóloga con experiencia en psicología clínica\n\nEmprendedora en producción y comercialización de prendas de vestir.", photo: "/lovable-uploads/e1412c7b-5e1f-4a8c-9515-509457ca0220.jpg" }
+  substitute: { name: "MERCEDES GUARÍN", role: "Suplente" as const, bio: "En Uniandinos: Expresidente de Caminandes.\n\nPsicóloga con experiencia en psicología clínica\n\nEmprendedora en producción y comercialización de prendas de vestir.", photo: "/lovable-uploads/mercedes-guarin.png" }
 }];
 
 
