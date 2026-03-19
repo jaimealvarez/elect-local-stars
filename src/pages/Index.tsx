@@ -58,7 +58,7 @@ export default function Index() {
       <StickyHeader
         title="LISTA #1 A LA JUNTA DIRECTIVA Y LISTA #2 A LA ASAMBLEA"
         subtitle="ELECCIONES UNIANDINOS 2026"
-        slogan="Juntos construimos el Uniandinos que queremos" />
+        slogan="Unidos para construir el Uniandinos que queremos" />
       
 
       <main className="max-w-6xl mx-auto px-6">
