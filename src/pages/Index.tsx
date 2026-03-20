@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import StickyHeader from "@/components/StickyHeader";
 import SectionHeader from "@/components/SectionHeader";
 import CandidateRow from "@/components/CandidateRow";
@@ -53,6 +54,14 @@ const assemblyProposals = [
 
 
 export default function Index() {
+  useEffect(() => {
+    if (window.location.hash) {
+      setTimeout(() => {
+        document.querySelector(window.location.hash)?.scrollIntoView({ behavior: "smooth" });
+      }, 300);
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-background text-foreground">
       <StickyHeader
