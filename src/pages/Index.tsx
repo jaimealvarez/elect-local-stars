@@ -194,6 +194,9 @@ export default function Index() {
           <p className="font-display text-xs uppercase tracking-widest text-muted-foreground">
             © 2026 Civic Assembly. All rights reserved.
           </p>
+          <p className="text-[10px] text-muted-foreground mt-2">
+            Imágenes: Sostenibilidad: Freepik/Vector, Fortalecimiento: Freepik/Fdl_art, Participación y proyección: Freepik
+          </p>
         </div>
       </footer>
     </div>);
