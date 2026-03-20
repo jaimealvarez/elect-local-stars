@@ -56,7 +56,8 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <StickyHeader
-        title="LISTA #1 A LA JUNTA DIRECTIVA Y LISTA #2 A LA ASAMBLEA"
+        titleLine1="LISTA #1 A LA JUNTA DIRECTIVA"
+        titleLine2="LISTA #2 A LA ASAMBLEA"
         subtitle="ELECCIONES UNIANDINOS 2026"
         slogan="Unidos para construir el Uniandinos que queremos" />
       
