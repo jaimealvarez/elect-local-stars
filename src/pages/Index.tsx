@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import StickyHeader from "@/components/StickyHeader";
 import SectionHeader from "@/components/SectionHeader";
 import CandidateRow from "@/components/CandidateRow";
