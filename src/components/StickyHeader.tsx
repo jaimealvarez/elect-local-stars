@@ -1,5 +1,6 @@
 interface StickyHeaderProps {
-  title: string;
+  titleLine1: string;
+  titleLine2: string;
   subtitle: string;
   slogan: string;
 }
@@ -16,13 +17,16 @@ function scrollTo(e: React.MouseEvent<HTMLAnchorElement>, href: string) {
   document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
 }
 
-export default function StickyHeader({ title, subtitle, slogan }: StickyHeaderProps) {
+export default function StickyHeader({ titleLine1, titleLine2, subtitle, slogan }: StickyHeaderProps) {
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
-      <div className="px-6 py-4 md:py-6 flex-col md:flex-row gap-4 flex md:items-start md:justify-between">
+      <div className="px-6 py-4 md:py-6 flex flex-col items-center text-center">
         <div>
-          <h1 className="heading-display text-3xl md:text-5xl lg:text-6xl leading-none whitespace-pre-line">
-            {title}
+          <h1 className="heading-display text-3xl md:text-5xl lg:text-6xl leading-none">
+            {titleLine1}
+          </h1>
+          <h1 className="heading-display text-3xl md:text-5xl lg:text-6xl leading-none mt-1">
+            {titleLine2}
           </h1>
           <p className="font-display text-sm md:text-base font-bold uppercase tracking-widest text-muted-foreground mt-1">
             {subtitle}
@@ -31,7 +35,7 @@ export default function StickyHeader({ title, subtitle, slogan }: StickyHeaderPr
             {slogan}
           </p>
         </div>
-        <nav className="flex gap-6 md:gap-8 md:pb-1">
+        <nav className="flex gap-6 md:gap-8 mt-3">
           {navLinks.map((link) =>
           <a
             key={link.href}
