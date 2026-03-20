@@ -59,7 +59,7 @@ export default function Index() {
         titleLine1="LISTA #1 A LA JUNTA DIRECTIVA"
         titleLine2="LISTA #2 A LA ASAMBLEA"
         subtitle="ELECCIONES UNIANDINOS 2026"
-        slogan="Unidos para construir el Uniandinos que queremos" />
+        slogan="Caminemos juntos hacia el Uniandinos que queremos" />
       
 
       <main className="max-w-6xl mx-auto px-6">
