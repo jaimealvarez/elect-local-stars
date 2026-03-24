@@ -27,7 +27,7 @@ const assemblyRows = [
 {
   title: "SEGUNDO RENGLÓN",
   principal: { name: "JUAN JOSÉ GARZÓN", role: "Principal" as const, bio: "Geociencias (2021)", photo: "/lovable-uploads/6d45ddc7-e1c0-4829-91e5-a1f1a71ffe58.jpg" },
-  substitute: { name: "NATALIA DURÁN", role: "Suplente" as const, bio: "Ingeniería biomédica (2020)", photo: "/lovable-uploads/dc6cc85f-e7b8-4e05-ade8-e348dbe6b6d0.jpg" }
+  substitute: { name: "NATALIA DURÁN", role: "Suplente" as const, bio: "Ingeniera Biomédica (2020). Experiencia laboral en manejo de datos (ETL) y optimizacion de sistemas para manejo más óptimo de agentes (IA). \n\nEn Uniandinos: Presidenta 2025-2026 Capítulo de Ingeniería Biomédica (Ibioandinos). Al ser un capítulo joven, buscamos que nos permita conectar entre egresados, brindar apoyo a los estudiantes cerca a graduarse y dar a conocer a la comunidad lo que hace un ingeniero biomédico. Mi objetivo a aportar en la asamblea es aprender más sobre cómo se maneja Uniandinos y brindar esa visión desde una carrera con más jóvenes para fortalecer la comunidad.", photo: "/lovable-uploads/dc6cc85f-e7b8-4e05-ade8-e348dbe6b6d0.jpg" }
 },
 {
   title: "TERCER RENGLÓN",
