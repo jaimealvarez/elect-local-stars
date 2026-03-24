@@ -156,7 +156,7 @@ export default function Index() {
       {/* Social Media Bar */}
       <div className="bg-muted border-t border-border">
         <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-center gap-4">
-          <a href="https://wa.me/" target="_blank" rel="noopener noreferrer"
+          <a href="https://chat.whatsapp.com/EfIJL8l7QyEA5NxbgXf52b" target="_blank" rel="noopener noreferrer"
           className="inline-flex items-center justify-center w-12 h-12 rounded-full text-white transition-opacity hover:opacity-80"
           style={{ backgroundColor: '#25D366' }}
           aria-label="WhatsApp">
@@ -165,21 +165,21 @@ export default function Index() {
             </svg>
           </a>
           <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
-          className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary text-primary-foreground transition-opacity hover:opacity-80"
+          className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary text-primary-foreground transition-opacity hover:opacity-80 hidden"
           aria-label="Facebook">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
               <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
             </svg>
           </a>
           <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
-          className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-foreground text-background transition-opacity hover:opacity-80"
+          className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-foreground text-background transition-opacity hover:opacity-80 hidden"
           aria-label="Instagram">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <rect width="20" height="20" x="2" y="2" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
             </svg>
           </a>
           <a href="mailto:contacto@example.com" target="_blank" rel="noopener noreferrer"
-          className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-secondary text-secondary-foreground transition-opacity hover:opacity-80"
+          className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-secondary text-secondary-foreground transition-opacity hover:opacity-80 hidden"
           aria-label="Email">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <rect width="20" height="16" x="2" y="4" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
