@@ -156,6 +156,7 @@ export default function Index() {
       {/* Social Media Bar */}
       <div className="bg-muted border-t border-border">
         <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-center gap-4">
+          <p className="body-serif text-base text-muted-foreground leading-relaxed">O envíanos tus preguntas y sugerencias en este espacio</p>
           <a href="https://chat.whatsapp.com/EfIJL8l7QyEA5NxbgXf52b" target="_blank" rel="noopener noreferrer"
           className="inline-flex items-center justify-center w-12 h-12 rounded-full text-white transition-opacity hover:opacity-80"
           style={{ backgroundColor: '#25D366' }}
