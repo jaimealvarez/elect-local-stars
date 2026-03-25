@@ -42,7 +42,7 @@ function CandidateEntry({ candidate }: {candidate: Candidate;}) {
           
           {candidate.name}
         </h3>
-        <p className="body-serif text-sm md:text-base leading-relaxed text-muted-foreground mt-3 font-thin">
+        <p className="body-serif text-sm md:text-base leading-relaxed text-muted-foreground mt-3 font-thin whitespace-pre-line">
           {candidate.bio}
         </p>
       </div>
