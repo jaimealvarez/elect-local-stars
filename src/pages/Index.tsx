@@ -8,11 +8,8 @@ import ProposalGallery from "@/components/ProposalGallery";
 const boardRows = [
 {
   title: "PRIMER RENGLÓN",
-  principal: { name: "BLANCA RUIZ", role: "Principal" as const, bio: "Ingeniera eléctrica (1989) con especializaciones en automatización, finanzas y derecho de los negocios.\n\nEn Uniandinos ha sido: Vicepresidente de capítulos, miembro de la Junta Directiva de Uniandinos, presidente de varios capítulos y asambleista.\n\nMiembro de las juntas directivas del CIDET en Colombia y de TGOOD Holdings de Hong Kong.\n\nExperiencia en multinacionales como gerente general y regional. Estructuración de proyectos hasta 250 MUSD y responsabilidad de P&G hasta 30MUSD.   www.linkedin.com/in/blanca-ruiz-ospina", photo: "/lovable-uploads/blanca-ruiz.jpeg" },
-  substitute: { name: "DAVID VÁSQUEZ", role: "Suplente" as const, bio: "Geociencias (2019) con maestría en ingeniería de la información (2024).\n\nEn Uniandinos: expresidente del capítulo Geociencias y asambleista.\n\nCientífico de datos con experiencia en resolución de problemas en tecnología aplicando geoanalítica.
-Experto en modelos analíticos: desarrollo e implementación de modelos de aprendizaje automático, ajuste de hiperparámetros y evaluación de modelos.
-Experto en teledetección, sistemas de información geográfica y análisis de datos espaciales.
-", photo: "/lovable-uploads/david-vasquez.jpeg" }
+  principal: { name: "BLANCA RUIZ", role: "Principal" as const, bio: "Ingeniera eléctrica (1989) con especializaciones en automatización, finanzas y derecho de los negocios.\n\nEn Uniandinos ha sido: Vicepresidente de capítulos, miembro de la Junta Directiva de Uniandinos, presidente de varios capítulos y asambleista.\n\nMiembro de las juntas directivas del CIDET en Colombia y de TGOOD Holdings de Hong Kong.\n\nExperiencia en multinacionales como gerente general y regional. Estructuración de proyectos hasta 250 MUSD y responsabilidad de P&G hasta 30MUSD. www.linkedin.com/in/blanca-ruiz-ospina", photo: "/lovable-uploads/blanca-ruiz.jpeg" },
+  substitute: { name: "DAVID VÁSQUEZ", role: "Suplente" as const, bio: "Geociencias (2019) con maestría en ingeniería de la información (2024).\n\nEn Uniandinos: expresidente del capítulo Geociencias y asambleista.\n\nCientífico de datos con experiencia en resolución de problemas en tecnología aplicando geoanalítica. Experto en modelos analíticos: desarrollo e implementación de modelos de aprendizaje automático, ajuste de hiperparámetros y evaluación de modelos.Experto en teledetección, sistemas de información geográfica y análisis de datos espaciales. https://www.linkedin.com/in/david-vasquez-geocientifico/", photo: "/lovable-uploads/david-vasquez.jpeg" }
 },
 {
   title: "SEGUNDO RENGLÓN",
