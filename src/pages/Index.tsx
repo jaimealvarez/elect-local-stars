@@ -13,7 +13,7 @@ const boardRows = [
 },
 {
   title: "SEGUNDO RENGLÓN",
-  principal: { name: "LUZ ELENA THOMPSON", role: "Principal" as const, bio: "Ingeniera de sistemas ", photo: "/lovable-uploads/437f68b4-5cf0-4567-9339-8552c3152dcb.jpg" },
+  principal: { name: "LUZ ELENA THOMPSON", role: "Principal" as const, bio: "Ingeniera de sistemas (1998).\n\nEn Uniandinos ha sido vicepresidente de Caminandes.\n\nMiembro de Chosen Futures, comprometida con la construcción de comunidad.\n\nArquitecta de Datos en Analítica, con cerca de 30 años de experiencia en iniciativas corporativas y regionales.\n\nEmpresaria y socia desde hace 15 años en Bision COnsulting, con experiencia en gobierno y gestión de equipos.\n\nExperta en articulación entre negocio y tecnología, con pensamiento estructurado y visión estratégica.\n\nhttps://www.linkedin.com/in/luzelenathompson/ ", photo: "/lovable-uploads/437f68b4-5cf0-4567-9339-8552c3152dcb.jpg" },
   substitute: { name: "MERCEDES GUARÍN", role: "Suplente" as const, bio: "Psicología (1982).\n\nEn Uniandinos ha sido presidente de Caminandes.\n\nExperiencia en psicología clínica.\n\nEmprendedora en producción y comercialización de prendas de vestir.", photo: "/lovable-uploads/mercedes-guarin.png" }
 }];
 
@@ -36,7 +36,7 @@ const assemblyRows = [
 },
 {
   title: "CUARTO RENGLÓN",
-  principal: { name: "CECILIA ROMERO", role: "Principal" as const, bio: Ingeniera industrial (1978) y especialista en Gerencia Estratégica de la U de la Sabana.\n\nEn Uniandinos ha sido asambleísta\n\nAmplia experiencia en las áreas de Planeación, Formación Profesional y Emprendimiento específicamente en el SENA, DANE y sector Privado.", photo: "/lovable-uploads/78134b8b-4201-46e8-a367-f82a5495d4fa.jpg" },
+  principal: { name: "CECILIA ROMERO", role: "Principal" as const, bio: "Ingeniera industrial (1978) y especialista en Gerencia Estratégica de la U de la Sabana.\n\nEn Uniandinos ha sido asambleísta\n\nAmplia experiencia en las áreas de Planeación, Formación Profesional y Emprendimiento específicamente en el SENA, DANE y sector Privado.", photo: "/lovable-uploads/78134b8b-4201-46e8-a367-f82a5495d4fa.jpg" },
   substitute: { name: "JAIME GUERRERO", role: "Suplente" as const, bio: "Ingeniero industrial (1977)\n\nEn Uniandinos ha sido asambleísta y pertenecido a los capítulos Caminandes y Biciandinos.\n\nEmpresario en outsourcing.", photo: "/lovable-uploads/ccb704e6-a472-4d0b-9865-5240335d047f.jpg" }
 }];
 
