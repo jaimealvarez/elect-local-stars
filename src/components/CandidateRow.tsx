@@ -27,7 +27,7 @@ function CandidateEntry({ candidate }: {candidate: Candidate;}) {
         <img
           src={candidate.photo}
           alt={`Portrait of ${candidate.name}`}
-          className="w-full aspect-[4/5] object-cover grayscale"
+          className="w-full aspect-[4/5] object-cover"
           loading="lazy" />
         
       </div>
