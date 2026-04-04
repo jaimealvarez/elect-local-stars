@@ -19,7 +19,7 @@ function scrollTo(e: React.MouseEvent<HTMLAnchorElement>, href: string) {
 
 export default function StickyHeader({ titleLine1, titleLine2, subtitle, slogan }: StickyHeaderProps) {
   return (
-    <header <header className="sticky top-0 z-50 bg-[#F2C300] border-b border-[#e0b200]">
+    <header className="sticky top-0 z-50 bg-[#F2C300] border-b border-[#e0b200]">
       <div className="px-6 py-4 md:py-6 flex flex-col items-center text-center">
         <div>
           <h1 className="heading-display text-3xl md:text-5xl lg:text-6xl leading-none text-[#0B1B5E]">
