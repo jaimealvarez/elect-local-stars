@@ -43,9 +43,27 @@ function CandidateEntry({ candidate }: {candidate: Candidate;}) {
           
           {candidate.name}
         </h3>
-        <p className="body-serif text-sm md:text-base leading-relaxed text-muted-foreground mt-3 font-thin whitespace-pre-line">
-          {candidate.bio}
-        </p>
+        <div className="mt-3">
+  {candidate.bio.split("\n\n").map((paragraph, i) => (
+    <p
+      key={i}
+      className="body-serif text-sm md:text-base leading-relaxed text-muted-foreground font-thin mb-3"
+    >
+      {paragraph}
+    </p>
+  ))}
+
+  {candidate.linkedin && (
+    <a
+      href={candidate.linkedin}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block mt-2 text-primary underline font-medium"
+    >
+      Ver perfil de LinkedIn
+    </a>
+  )}
+</div>
       </div>
     </div>);
 
