@@ -63,7 +63,7 @@ export default function Index() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen bg-[#F5F1E8] text-[#0B1B5E]">
       <StickyHeader
         titleLine1="LISTA #1 A LA JUNTA DIRECTIVA"
         titleLine2="LISTA #2 A LA ASAMBLEA"
