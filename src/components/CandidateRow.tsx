@@ -47,7 +47,7 @@ function CandidateEntry({ candidate }: {candidate: Candidate;}) {
   {candidate.bio.split("\n\n").map((paragraph, i) => (
     <p
       key={i}
-      className="body-serif text-sm md:text-base leading-relaxed text-muted-foreground font-thin mb-3"
+      className="body-serif text-sm md:text-base leading-relaxed text-[#4A5568] font-thin mb-3"
     >
       {paragraph}
     </p>
