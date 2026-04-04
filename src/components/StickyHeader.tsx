@@ -22,16 +22,16 @@ export default function StickyHeader({ titleLine1, titleLine2, subtitle, slogan 
     <header <header className="sticky top-0 z-50 bg-[#F2C300] border-b border-[#e0b200]">
       <div className="px-6 py-4 md:py-6 flex flex-col items-center text-center">
         <div>
-          <h1 className="heading-display text-3xl md:text-5xl lg:text-6xl leading-none">
+          <h1 className="heading-display text-3xl md:text-5xl lg:text-6xl leading-none text-[#0B1B5E]">
             {titleLine1}
           </h1>
           <h1 className="heading-display text-3xl md:text-5xl lg:text-6xl leading-none mt-1">
             {titleLine2}
           </h1>
-          <p className="font-display text-sm md:text-base font-bold uppercase tracking-widest text-muted-foreground mt-1">
+          <p className="font-display text-sm md:text-base font-bold uppercase tracking-widest text-[#0B1B5E] mt-1">
             {subtitle}
           </p>
-          <p className="body-serif text-base md:text-lg italic text-muted-foreground mt-2">
+          <p className="body-serif text-base md:text-lg italic text-[#0B1B5E] mt-2">
             {slogan}
           </p>
         </div>
@@ -41,7 +41,7 @@ export default function StickyHeader({ titleLine1, titleLine2, subtitle, slogan 
             key={link.href}
             href={link.href}
             onClick={(e) => scrollTo(e, link.href)}
-            className="font-display text-xs md:text-sm font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap">
+            className="font-display text-xs md:text-sm font-bold uppercase tracking-widest text-[#0B1B5E] hover:opacity-70 transition-opacity whitespace-nowrap"
             
               {link.label}
             </a>
