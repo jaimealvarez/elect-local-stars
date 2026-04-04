@@ -16,6 +16,27 @@ interface CandidateRowProps {
 function CandidateEntry({ candidate }: {candidate: Candidate;}) {
   const [hovered, setHovered] = useState(false);
 
+  const renderTextWithLinks = (text: string) => {
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+
+  return text.split(urlRegex).map((part, i) => {
+    if (part.match(urlRegex)) {
+      return (
+        <a
+          key={i}
+          href={part}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline text-primary"
+        >
+          {part}
+        </a>
+      );
+    }
+    return part;
+  });
+};
+  
   return (
     <div
       className="grid grid-cols-[30%_70%] gap-0"
