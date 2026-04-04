@@ -42,7 +42,7 @@ export default function StickyHeader({ titleLine1, titleLine2, subtitle, slogan 
             href={link.href}
             onClick={(e) => scrollTo(e, link.href)}
             className="font-display text-xs md:text-sm font-bold uppercase tracking-widest text-[#0B1B5E] hover:opacity-70 transition-opacity whitespace-nowrap"
-            
+            >
               {link.label}
             </a>
           )}
