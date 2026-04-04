@@ -91,13 +91,13 @@ export default function Index() {
         )}
 
         {/* Proposals — Board of Directors */}
-        <SectionHeader title="PROPUESTAS PARA LA JUNTA DIRECTIVA" id="proposals" />
+        <SectionHeader title="PROPUESTAS" id="proposals" />
         <div className="py-8 md:py-12">
           <ProposalGallery proposals={boardProposals} />
         </div>
 
         {/* Proposals — Assembly */}
-        <SectionHeader title="PROPUESTAS PARA LA ASAMBLEA" id="assembly-proposals" />
+        <SectionHeader title="ACCIONES DESDE LA ASAMBLEA" id="assembly-proposals" />
         <div className="py-8 md:py-12">
           <ProposalGallery proposals={assemblyProposals} />
         </div>
