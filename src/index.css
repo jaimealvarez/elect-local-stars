@@ -9,8 +9,8 @@
     --font-display: 'Public Sans', sans-serif;
     --font-body: 'Source Serif 4', serif;
 
-    --background: 60 7% 95%;
-    --foreground: 213 18% 16%;
+    --background: 48 100% 96%;
+    --foreground: 222 80% 20%;
 
     --card: 60 7% 95%;
     --card-foreground: 213 18% 16%;
@@ -18,24 +18,24 @@
     --popover: 60 7% 95%;
     --popover-foreground: 213 18% 16%;
 
-    --primary: 228 100% 50%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 48 100% 50%;
+    --primary-foreground: 222 80% 15%;
 
-    --secondary: 0 0% 82%;
-    --secondary-foreground: 213 18% 16%;
+    --secondary: 222 80% 20%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 60 4% 90%;
-    --muted-foreground: 213 10% 40%;
+    --muted: 48 60% 90%;
+    --muted-foreground: 222 30% 30%;
 
-    --accent: 60 4% 90%;
-    --accent-foreground: 213 18% 16%;
+    --accent: 48 80% 85%;
+    --accent-foreground: 222 80% 20%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 82%;
-    --input: 0 0% 82%;
-    --ring: 228 100% 50%;
+    --border: 48 30% 80%;
+    --input: 48 30% 80%;
+    --ring: 48 100% 50%;
 
     --radius: 0px;
 
