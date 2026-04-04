@@ -5,6 +5,7 @@ interface Candidate {
   role: "Principal" | "Suplente";
   bio: string;
   photo: string;
+  linkedin?: string;
 }
 
 interface CandidateRowProps {
