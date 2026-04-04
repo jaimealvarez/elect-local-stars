@@ -32,7 +32,7 @@ function CandidateEntry({ candidate }: {candidate: Candidate;}) {
         
       </div>
       <div className="flex flex-col justify-center">
-        <span className="font-display text-xs font-bold uppercase tracking-widest text-muted-foreground mb-1">
+        <span className="font-display text-xs font-bold uppercase tracking-widest text-[#4A5568] mb-1">
           {candidate.role}
         </span>
         <h3
