@@ -58,7 +58,7 @@ function CandidateEntry({ candidate }: {candidate: Candidate;}) {
       href={candidate.linkedin}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-block mt-2 text-secondary underline font-medium"
+      className="inline-block mt-2 text-secondary underline font-medium hover:text-primary transition-colors"
     >
       Ver perfil de LinkedIn
     </a>
