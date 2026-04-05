@@ -25,7 +25,7 @@ export default function StickyHeader({ titleLine1, titleLine2, subtitle, slogan 
           <h1 className="heading-display text-3xl md:text-5xl lg:text-6xl leading-none text-[#0B1B5E]">
             {titleLine1}
           </h1>
-          <h1 className="heading-display text-3xl md:text-5xl lg:text-6xl leading-none mt-1">
+          <h1 className="heading-display text-3xl md:text-5xl lg:text-6xl leading-none mt-1 text-secondary">
             {titleLine2}
           </h1>
           <p className="font-display text-sm md:text-base font-bold uppercase tracking-widest text-[#0B1B5E] mt-1">
