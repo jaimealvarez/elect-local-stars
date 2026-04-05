@@ -9,7 +9,7 @@
     --font-display: 'Public Sans', sans-serif;
     --font-body: 'Source Serif 4', serif;
 
-    --background: 48 100% 96%;
+    --background: 48 100% 95%;
     --foreground: 222 80% 20%;
 
     --card: 60 7% 95%;
@@ -18,13 +18,13 @@
     --popover: 60 7% 95%;
     --popover-foreground: 213 18% 16%;
 
-    --primary: 48 100% 50%;
+    --primary: 48 100% 48%;
     --primary-foreground: 222 80% 15%;
 
     --secondary: 222 80% 20%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 48 60% 90%;
+    --muted: 48 80% 85%;
     --muted-foreground: 222 30% 30%;
 
     --accent: 48 80% 85%;
