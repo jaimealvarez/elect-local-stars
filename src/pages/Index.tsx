@@ -110,7 +110,7 @@ export default function Index() {
           </p>
           <a
 
-            className="inline-block bg-primary text-primary-foreground font-display font-extrabold uppercase tracking-widest text-sm md:text-base px-10 py-4 hover:opacity-90 transition-opacity" href="https://elecciones.uniandinos.org.co/">ACCESO AL PORTAL DE VOTACIÓN
+            className="inline-block bg-primary text-primary-foreground font-display font-extrabold uppercase tracking-widest text-sm md:text-base px-10 py-4 hover:opacity-90 transition-opacity" href="https://voto.uniandinos.org.co/OL/Convocatorias/frmConvVotaciones.aspx?PIE=8&PIC=2768&pConvGp=">ACCESO AL PORTAL DE VOTACIÓN
 
 
           </a>
